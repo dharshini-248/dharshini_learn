@@ -16,3 +16,12 @@ ex5 = {item['id']: item for item in data}
 print(ex5)
 
 print(type(ex5))
+
+#to add a batter named Coffee for “donut” with name “Old Fashoined”
+
+for item in data:
+    if item["type"] == "donut" and item["name"] == "Old Fashioned":
+        # Add a new batter named "Coffee" to the "batter" list
+        item["batters"]["batter"].append({"id": "1005", "type": "Coffee"})
+
+print(data)
