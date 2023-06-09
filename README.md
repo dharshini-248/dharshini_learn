@@ -1,7 +1,7 @@
 # SkillRank
 
 # Day-1 Assignment Basics
-Printing Hello everyone using python
+Print Hello everyone using python
 # Assignment 2:
 For this assignment, let’s use example 5. Store the example 5 json in a file ex5.json.
 Read the json using python, store in a dictionary named ex5
