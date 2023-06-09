@@ -25,3 +25,11 @@ for item in data:
         item["batters"]["batter"].append({"id": "1005", "type": "Coffee"})
 
 print(data)
+
+
+#Replacing old json file with new data
+
+with open('ex5.json', 'w') as file:
+    json.dump(data, file)
+    
+print("Updated Json file data",data)
